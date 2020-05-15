@@ -1,5 +1,4 @@
 # RViz_model
-
 Este proyecto tuvo muchos inconventienes en cuanto al codigo por lo cual se diran los errores primeros para tener en cuenta:
 
 ![Captura de pantalla de 2020-05-15 15-03-48](https://user-images.githubusercontent.com/59718261/82102904-a3977000-96d6-11ea-8128-f3925ed65e7d.png)
@@ -10,5 +9,18 @@ Este error paso debido a que solo se estaba publicando en el /joint_states los d
 
 El error en este caso fue haber publicado incorrectamente los mensajes con variables que no pertecen como por ejemplo int32 a position que es una lista de floats.
 
-Para ejecutar y probar el model , primero se debe compilar el catkin_ws , para ello se usa el comando:
+Para ejecutar y probar el model , primero se debe compilar la carpeta catkin_ws , para ello se usa el comando:
+
+```bash
+catkin_make
+```
+
+```bash
+source devel/setup.bash
+```
+Despues ingresar lo siguiente al terminal.
+
+```bash
+roslaunch rviz_visual rviz.launch
+```
 
