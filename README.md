@@ -23,4 +23,6 @@ Despues ingresar lo siguiente al terminal.
 ```bash
 roslaunch rviz_visual rviz.launch
 ```
+![asus@asus-ROG-Strix-G531GT-G531GT: ~-Escritorio-RViz_model-catkin_ws_033](https://user-images.githubusercontent.com/59718261/82104282-e1e35e00-96db-11ea-8684-1c4688dec952.png)
+
 
