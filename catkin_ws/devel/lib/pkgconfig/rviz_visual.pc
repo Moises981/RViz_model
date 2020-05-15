@@ -1,0 +1,8 @@
+prefix=/home/asus/Escritorio/RViz_simulation/RViz_model/catkin_ws/devel
+
+Name: rviz_visual
+Description: Description of rviz_visual
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
