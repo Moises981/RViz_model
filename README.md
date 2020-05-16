@@ -9,11 +9,16 @@ Este error paso debido a que solo se estaba publicando en el /joint_states los d
 
 El error en este caso fue haber publicado incorrectamente los mensajes con variables que no pertecen como por ejemplo int32 a position que es una lista de floats.
 
+Primero subir el skecth al arduino.
+
+![image](https://user-images.githubusercontent.com/59718261/82105158-6edbe680-96df-11ea-8710-5b1323061a68.png)
+
 Para ejecutar y probar el model , primero se debe compilar la carpeta catkin_ws , para ello se usa el comando:
 
 ```bash
 catkin_make
 ```
+![asus@asus-ROG-Strix-G531GT-G531GT: ~-Escritorio-RViz_model-catkin_ws_033](https://user-images.githubusercontent.com/59718261/82104282-e1e35e00-96db-11ea-8684-1c4688dec952.png)
 
 ```bash
 source devel/setup.bash
@@ -23,6 +28,8 @@ Despues ingresar lo siguiente al terminal.
 ```bash
 roslaunch rviz_visual rviz.launch
 ```
-![asus@asus-ROG-Strix-G531GT-G531GT: ~-Escritorio-RViz_model-catkin_ws_033](https://user-images.githubusercontent.com/59718261/82104282-e1e35e00-96db-11ea-8684-1c4688dec952.png)
+![Peek 15-05-2020 19-02](https://user-images.githubusercontent.com/59718261/82105021-dc3b4780-96de-11ea-8026-55dc9ed63b23.gif)
+
+
 
 
